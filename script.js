@@ -23,3 +23,4 @@ async function fetchCryptoData() {
 
 // تحميل البيانات عند فتح الصفحة
 fetchCryptoData();
+setInterval(fetchCryptoData, 60000); // كل 60 ثانية
